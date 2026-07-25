@@ -96,6 +96,10 @@ h6 {
 .menu a:link {
     color: #004994;
     text-decoration: none;
+    display: inline-block;
+    background: transparent;
+    outline: none;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .menu a:visited {
@@ -103,9 +107,13 @@ h6 {
     text-decoration: none;
 }
 
-.menu a:hover {
+.menu a:hover,
+.menu a:focus-visible {
     color: #ABD1F3;
     text-decoration: none;
+    background: transparent;
+    outline: none;
+    transform: translateY(-0.15rem) scale(1.02);
 }
 
 .menu a:active {
@@ -140,6 +148,16 @@ h6 {
     margin-top: -2rem;
 }
 
+button {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover,
+button:focus-visible {
+    transform: translateY(-0.15rem) scale(1.02);
+    box-shadow: 0 0.4rem 0.75rem rgba(0, 73, 148, 0.2);
+}
+
 .introductionText .aboutButton {
     width: 17rem;
     height: 2.4rem;
@@ -151,6 +169,14 @@ h6 {
     border: none;
     border-radius: 0.5rem;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.introductionText .aboutButton:hover,
+.introductionText .aboutButton:focus-visible {
+    transform: translateY(-0.15rem) scale(1.02);
+    background-color: #0b5da9;
+    box-shadow: 0 0.4rem 0.75rem rgba(0, 73, 148, 0.2);
 }
 
 .introductionText .aboutButton a:hover {
@@ -223,10 +249,13 @@ h6 {
     padding: 1rem;
     background: #E6E6E6;
     border-radius: 0.75rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
 
 .accordion label:hover, .accordion label:focus {
     background: #D6D6D6;
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.3rem 0.7rem rgba(0, 73, 148, 0.14);
 }
 
 .accordion .handle label:before {
@@ -312,6 +341,13 @@ body::-webkit-scrollbar {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectImage:hover,
+.projectImage:focus-visible {
+    transform: translateY(-0.15rem) scale(1.01);
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 73, 148, 0.16);
 }
 
 .column, .columnTop {
@@ -328,6 +364,13 @@ body::-webkit-scrollbar {
 
 .media-item a {
     display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.media-item a:hover,
+.media-item a:focus-visible {
+    transform: translateY(-0.15rem) scale(1.01);
+    box-shadow: 0 0.4rem 0.8rem rgba(0, 73, 148, 0.16);
 }
 
 .featureImage {

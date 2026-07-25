@@ -14,3 +14,7 @@ document.querySelectorAll(".item").forEach(n => n.addEventListener("click", () =
 function pageAbout() {
     window.location.href = "about.html";
 }
+
+document.querySelectorAll('.current-year').forEach((yearElement) => {
+    yearElement.textContent = new Date().getFullYear();
+});
