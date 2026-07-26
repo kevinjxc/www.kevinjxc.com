@@ -179,7 +179,8 @@ button:focus-visible {
     box-shadow: 0 0.4rem 0.75rem rgba(0, 73, 148, 0.2);
 }
 
-.introductionText .aboutButton a:hover {
+.introductionText .aboutButton:hover a,
+.introductionText .aboutButton:focus-visible a {
     color: #ABD1F3;
     text-decoration: none;
     cursor: pointer;
