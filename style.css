@@ -28,6 +28,7 @@ h3 {
     font-weight: 500;
     line-height: 2.375rem;
     color: #004994;
+    margin-top: 0rem;
     margin-left: 2rem;
 }
 
@@ -417,6 +418,7 @@ body::-webkit-scrollbar {
         font-size: 1.2rem;
         text-align: center;
         margin-bottom: 3rem;
+        margin-top: 1rem;
     }
 
     h4 {
@@ -597,7 +599,6 @@ body::-webkit-scrollbar {
 
 @media (max-width: 500px) {
     h3 {
-        margin-top: 2rem;
         width: 100%;
         margin-left: 0rem;
     }
