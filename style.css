@@ -37,7 +37,7 @@ h4 {
     font-size: 1.15rem;
     font-family: Lexend Deca;
     font-weight: 500;
-    line-height: 2.2rem;
+    line-height: 2.35rem;
     color: #004994;
 }
 
@@ -146,7 +146,7 @@ h6 {
     width: 60%;
     color: #004994;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -3rem;
 }
 
 button {
@@ -160,6 +160,7 @@ button:focus-visible {
 }
 
 .introductionText .aboutButton {
+    margin-top: -0.5rem;
     width: 17rem;
     height: 2.4rem;
     color: #F2F2F2;
