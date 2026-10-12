@@ -557,8 +557,9 @@ body::-webkit-scrollbar {
     margin-top: 2rem
   }
 
-  body.experience-page .accordion h2 {
-    font-size: 1.05rem;
+  body.experience-page .accordion .handle,
+  body.experience-page .accordion .content h6 {
+    font-size: 1.2rem;
   }
 
   body.academics-page h5 {
