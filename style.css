@@ -269,6 +269,17 @@ button:focus-visible {
     line-height: 1.556em;
 }
 
+.publication-link,
+.publication-link:visited {
+    color: #004994;
+    transition: color 0.3s ease;
+}
+
+.publication-link:hover,
+.publication-link:focus-visible {
+    color: #ABD1F3;
+}
+
 .accordion > input[type="checkbox"]:checked ~ .handle label:before {
     content: "↓";
 }
@@ -334,23 +345,6 @@ body::-webkit-scrollbar {
 
 .columnTop {
     flex: 50%;
-}
-
-
-.projectImage {
-    border-radius: 0.75rem;
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1.5rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.projectImage:hover,
-.projectImage:focus-visible {
-    transform: translateY(-0.15rem) scale(1.01);
-    box-shadow: 0 0.4rem 0.8rem rgba(0, 73, 148, 0.16);
 }
 
 .column, .columnTop {
