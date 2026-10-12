@@ -559,13 +559,6 @@ body::-webkit-scrollbar {
 }
 
 @media (max-width: 650px) {
-    .accordion .handle {
-        font-size: 1rem;
-        font-family: "Lexend Deca";
-        font-weight: 500;
-        color: #004994;
-    }
-
     h6 {
         font-size: 1rem;
     }
@@ -589,13 +582,6 @@ body::-webkit-scrollbar {
     h5 {
         font-size: 1.1rem;
         margin-bottom: -1rem;
-    }
-
-    .accordion .handle {
-        font-size: 0.8rem;
-        font-family: "Lexend Deca";
-        font-weight: 500;
-        color: #004994;
     }
 
     h6 {
